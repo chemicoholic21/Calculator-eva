@@ -1,54 +1,75 @@
-body{
-    background-color: rgb(51, 84, 84);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+/* Styling for the body element */
+body {
+    background-color: rgb(51, 84, 84); /* Set background color */
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Set the height to 100% of the viewport height */
 }
-.calculator{
-    background-color: rgb(211 211 211);
-    padding: 20px;
-    border-radius: 10px;
+
+/* Styling for the calculator container */
+.calculator {
+    background-color: rgb(211, 211, 211); /* Set background color */
+    padding: 20px; /* Add padding around the calculator */
+    border-radius: 10px; /* Apply border radius for rounded corners */
 }
-.screen{
-    width: 224px;
-    background-color: rgb(176, 205, 176);
-    font-size: 40px;
-    text-align: end;
-    padding: 4px;
+
+/* Styling for the calculator screen */
+.screen {
+    width: 224px; /* Set width */
+    background-color: rgb(176, 205, 176); /* Set background color */
+    font-size: 40px; /* Set font size */
+    text-align: end; /* Align text to the right */
+    padding: 4px; /* Add padding inside the screen */
 }
-.buttons{
-    width: 232px;
-    display: flex;
-    flex-wrap: wrap;
+
+/* Styling for the buttons container */
+.buttons {
+    width: 232px; /* Set width */
+    display: flex; /* Use flexbox layout */
+    flex-wrap: wrap; /* Allow buttons to wrap to the next line if needed */
 }
+
+/* Styling for buttons */
 button {
-    background-color: rgb(131, 129, 129);
-    border: none;
-    color: rgb(255,255,255);
-    font-size: 40px;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    margin: 4px;    
+    background-color: rgb(131, 129, 129); /* Set default background color */
+    border: none; /* Remove border */
+    color: rgb(255, 255, 255); /* Set text color */
+    font-size: 40px; /* Set font size */
+    width: 50px; /* Set width */
+    height: 50px; /* Set height */
+    border-radius: 25px; /* Apply border radius for rounded corners */
+    margin: 4px; /* Add margin around buttons */
 }
-button:hover{
-    background-color: rgb(111, 110, 110);
+
+/* Styling for button hover state */
+button:hover {
+    background-color: rgb(111, 110, 110); /* Change background color on hover */
 }
-button:active{
-    background-color: rgb(232, 232, 232);
+
+/* Styling for button active state */
+button:active {
+    background-color: rgb(232, 232, 232); /* Change background color on active state (when clicked) */
 }
-#equals{
-    background-color: rgb(218,2,2);
+
+/* Styling for the equals button */
+#equals {
+    background-color: rgb(218, 2, 2); /* Set background color for equals button */
 }
-#equals:hover{
-    background-color: rgb(198,1,1);
+
+/* Styling for equals button hover state */
+#equals:hover {
+    background-color: rgb(198, 1, 1); /* Change background color on hover */
 }
-#clear{
-    width: 100%;
-    background-color: rgb(252, 226, 27);
-    font-size: 30px;
+
+/* Styling for the clear button */
+#clear {
+    width: 100%; /* Set width to 100% */
+    background-color: rgb(252, 226, 27); /* Set background color for clear button */
+    font-size: 30px; /* Set font size */
 }
-#clear:hover{
-    background-color: rgb(252, 201, 17);
+
+/* Styling for clear button hover state */
+#clear:hover {
+    background-color: rgb(252, 201, 17); /* Change background color on hover */
 }
